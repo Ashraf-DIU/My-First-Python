@@ -23,8 +23,8 @@
 
 # Arithmetic Operation in Python
 
-a = 5
-b = 3
+# a = 5
+# b = 3
 # sum = a+b
 # print("The Sum is:",sum)
 # diff = b-a
@@ -59,11 +59,33 @@ b = 3
 
 # Logical Operator
 
-print(not False)
-print(not True)
-print(not (a>b))
-val1 = True
-val2 = False
-print("And Operator:" ,val1 and val2) #If both True
-print("Or Operator:" ,val1 or val2) #Any one True
-print("Or Operator:", (a == b) or (a > b))
+# print(not False)
+# print(not True)
+# print(not (a>b))
+# val1 = True
+# val2 = False
+# print("And Operator:" ,val1 and val2) #If both True
+# print("Or Operator:" ,val1 or val2) #Any one True
+# print("Or Operator:", (a == b) or (a > b))
+
+
+#Type Conversation
+
+# a = 2
+# b = 4.5
+# b = str(b)
+# # sum = a+b
+# # print(sum) #Sum = 6.5
+# print(type(b))
+
+
+# Input In python (Python normally take input in String)
+# name =  input("Enter Your Name: ")
+# print("Ok, I am ", name)
+# age =  input("Enter Your age: ")
+# print("Ok, my age is", age)
+val = input("Enter Anything ")
+print("Checking Type:", type(val), val)
+#taking int input
+val2 = int(input("Taking Integer  Input: "))
+print(type(val2),val2)
